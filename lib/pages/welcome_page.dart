@@ -45,7 +45,8 @@ class WelcomePage extends StatelessWidget {
                           horizontal: 100, vertical: 30),
                       primary: Colors.deepPurpleAccent),
                   onPressed: () {
-                    Navigator.pushNamed(context, 'pagePokedex');
+                    Navigator.pushNamedAndRemoveUntil(
+                        context, 'pagePokedex', (route) => false);
                   },
                   child: const Text(
                     'Continuar',
