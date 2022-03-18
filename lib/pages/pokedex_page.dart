@@ -66,8 +66,8 @@ class _PokedexPageState extends State<PokedexPage> {
                                 color: Colors.white,
                               ),
                             ),
-                            const Text(
-                              'Num',
+                            Text(
+                              '${pokedexkanto?[index]['num']}' ?? 'N/D',
                               style:
                                   TextStyle(fontSize: 20, color: Colors.white),
                             ),
@@ -94,7 +94,7 @@ class _PokedexPageState extends State<PokedexPage> {
                           height: 25,
                         ),
                         Text(
-                          pokedexkanto![index]['name'],
+                          pokedexkanto![index]['name'] ?? 'N/D',
                           style: const TextStyle(
                             fontSize: 29,
                             fontWeight: FontWeight.bold,
