@@ -1,16 +1,25 @@
-# pokedex_api
+# Pokedex API (APP) 
 
-A new Flutter project.
+Consumo de api de Pokemon implementandolo con flutter mediante una solicitud http
+## Pasos para ejecutar 
 
-## Getting Started
+ 1:Ejecutar Flutter clean en el terminal
+ 2:"flutter pub get" para obtener las ultimas dependencias
+ 3:Levantar el emulador de android/IOS
+ $ desde el archivo "main.dart" ejecutarlo y esperar a que se depure 
+..
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+### Captura
+![alt text](https://github.com/lODIN007l/PockedexApi-Flutter/blob/main/assets/img/screenshot/screen1.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![alt text](https://github.com/lODIN007l/PockedexApi-Flutter/blob/main/assets/img/screenshot/screen2.png)
+
+![alt text](https://github.com/lODIN007l/PockedexApi-Flutter/blob/main/assets/img/screenshot/screen3.png)
+
+
+
+
+Wilson Lluilema
